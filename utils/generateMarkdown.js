@@ -1,30 +1,53 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
 return `
-# ${data.title}
-${renderLicenseBadge(data.license)}
+# ${data.title} ${renderLicenseBadge(data.license)}
+
 ## Description
+
 ${data.description}
+
 ## Table of Contents
-[Questions](#Questions)
-[Installation](#Installation)
-[Usage](#Usage)
-[License](#License)
-[Contributing](#Contributing)
-[Tests](#Tests)
+
+* [Installation](#Installation)
+* [Tests](#Tests)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Questions](#Questions)
+
+## Installation
+
+To install project dependencies run: 
+
+\`\`\`
+${data.installation}
+\`\`\`
+
+## Tests
+
+To run tests run: 
+
+\`\`\`
+${data.tests}
+\`\`\`
+
+## Usage
+
+${data.usage}
+
+## License
+
+${explainLicense(data.license)}
+
+## Contributing
+
+${data.contributing}
+
 ## Questions
 Feel free to email me at ${data.email} with any questions.
-[${data.github}](https://www.github.com/${data.github})
-## Installation
-${data.installation}
-## Usage
-${data.usage}
-## License
-${explainLicense(data.license)}
-## Contributing
-${data.contributing}
-## Tests
-${data.tests}
+
+Check out my GitHub profile: [${data.github}](https://www.github.com/${data.github})
 `;
 }
 

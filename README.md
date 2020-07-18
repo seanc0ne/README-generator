@@ -1,25 +1,47 @@
 
-# party
-![githublicense](https://img.shields.io/badge/license-APACHE%202.0-blue.svg)
+# README Generator ![githublicense](https://img.shields.io/badge/license-BSD%203-blue.svg)
+
 ## Description
-party
+
+This project generates README files.
+
 ## Table of Contents
-[Questions](#Questions)
-[Installation](#Installation)
-[Usage](#Usage)
-[License](#License)
-[Contributing](#Contributing)
-[Tests](#Tests)
-## Questions
-Feel free to email me at party with any questions.
-[party](https://www.github.com/party)
+
+* [Installation](#Installation)
+* [Tests](#Tests)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Questions](#Questions)
+
 ## Installation
-party
-## Usage
-party
-## License
-This application is covered under the APACHE 2.0 license.
-## Contributing
-party
+
+To install project dependencies run: 
+
+```
+npm
+```
+
 ## Tests
-party
+
+To run tests run: 
+
+```
+npm
+```
+
+## Usage
+
+npm
+
+## License
+
+This application is covered under the BSD 3 license.
+
+## Contributing
+
+npm
+
+## Questions
+Feel free to email me at seandoesitbetter@gmail.com with any questions.
+Check out my GitHub profile: [seanc0ne](https://www.github.com/seanc0ne)
