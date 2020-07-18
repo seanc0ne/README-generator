@@ -1,5 +1,5 @@
 
-# README Generator ![githublicense](https://img.shields.io/badge/license-BSD%203-blue.svg)
+# README Generator ![githublicense](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
@@ -19,7 +19,7 @@ This project generates README files.
 To install project dependencies run: 
 
 ```
-npm
+npm i
 ```
 
 ## Tests
@@ -27,21 +27,22 @@ npm
 To run tests run: 
 
 ```
-npm
+npm run test
 ```
 
 ## Usage
 
-npm
+Feel free to clone or fork this repo.
 
 ## License
 
-This application is covered under the BSD 3 license.
+This application is covered under the MIT license.
 
 ## Contributing
 
-npm
+Submit a pull request if you would like to contribute.
 
 ## Questions
 Feel free to email me at seandoesitbetter@gmail.com with any questions.
+
 Check out my GitHub profile: [seanc0ne](https://www.github.com/seanc0ne)
