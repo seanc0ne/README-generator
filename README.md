@@ -7,7 +7,13 @@
 
 ## Description
 
-This project generates README files.
+This README generator is a a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. The application is invoked by using the following command:
+
+```
+node index.js
+```
+
+The user is prompted for information about their application repository, and a high-quality, professional README.md is generated with the title of their project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests and Questions.
 
 ## Table of Contents
 
