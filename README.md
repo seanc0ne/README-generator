@@ -1,6 +1,8 @@
 
 # README Generator ![githublicense](https://img.shields.io/badge/license-MIT-blue.svg)
 
+[![Walkthrough video for README Generator](https://img.youtube.com/vi/sw0t0SwakVs/0.jpg)](https://www.youtube.com/watch?v=sw0t0SwakVs)
+
 ## Description
 
 This project generates README files.
