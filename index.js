@@ -21,35 +21,35 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please add a description of your project',
+        message: 'Please add a description of your project:',
         name: 'description',
     },
     {
         type: 'list',
-        message: 'Select the license you would like your project to have',
+        message: 'Select the license you would like your project to have:',
         name: 'license',
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
     },
     {
         type: 'input',
-        message: 'What command to run to install dependencies',
+        message: 'What command should be run to install dependencies?',
         name: 'installation',
         default: 'Installation'
     },
     {
         type: 'input',
-        message: 'What does the user need to know to use this repo',
+        message: 'What does the user need to know to use this repo?',
         name: 'usage',
         default: 'Usage'
     },
     {
         type: 'input',
-        message: 'How can the user contribute',
+        message: 'How can the user contribute?',
         name: 'contributing',
     },
     {
         type: 'input',
-        message: 'What command to run to for testing',
+        message: 'What command should be run for testing?',
         name: 'tests',
     },
 ]
